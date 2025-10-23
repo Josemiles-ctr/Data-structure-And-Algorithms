@@ -1,0 +1,5 @@
+# Ignore all compiled C outputs
+**/C/*.out
+
+# Ignore all compiled Java classes
+**/Jav/*.class
