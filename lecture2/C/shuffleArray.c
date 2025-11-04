@@ -1,3 +1,4 @@
+//A program that uses a function to shuffle a 1D array in_place
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
