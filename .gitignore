@@ -3,3 +3,8 @@
 
 # Ignore all compiled Java classes
 **/Jav/*.class
+**/lecture*/Jav/*.class
+**/practice*/Jav/*.class
+**/assignments*/Jav/*.class
+.vscode/
+.gitignore
