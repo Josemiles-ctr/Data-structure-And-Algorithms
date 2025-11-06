@@ -1,10 +1,12 @@
 # Ignore all compiled C outputs
 **/C/*.out
 
+# Ignore all .exe files in any location
+**/*.exe
+
 # Ignore all compiled Java classes
 **/Jav/*.class
-**/lecture*/Jav/*.class
-**/practice*/Jav/*.class
-**/assignments*/Jav/*.class
+.history/
 .vscode/
-.gitignore
+.DS_Store
+clear.py
