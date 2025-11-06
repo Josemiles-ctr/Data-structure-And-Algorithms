@@ -3,3 +3,7 @@
 
 # Ignore all compiled Java classes
 **/Jav/*.class
+.history/
+.vscode/
+.DS_Store
+clear.py
