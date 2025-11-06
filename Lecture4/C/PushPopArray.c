@@ -1,3 +1,4 @@
+// A program to demonstrate push and pop operations in a stack using arrays
 #include <stdio.h>
 #include <stdlib.h>
 
