@@ -3,3 +3,6 @@
 
 # Ignore all compiled Java classes
 **/Jav/*.class
+
+# Ignore all executable files
+**/.exe
