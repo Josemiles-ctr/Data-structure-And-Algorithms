@@ -16,7 +16,7 @@ struct Node* createNode(int data) {
 }
 
 // Function to insert at the end
-void insertEnd(struct Node** head, int data) {
+void insertEnd(struct Node**  head, int data) {
     struct Node* newNode = createNode(data);
     if (*head == NULL) {
         *head = newNode;
