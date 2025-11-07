@@ -51,6 +51,7 @@ int main() {
     struct Node* head = createNode(10);
     head->next = createNode(20);
     head->next->next = createNode(30);
+    head->next->next->next=createNode(40);
 
     printf("Original List:\n");
     display(head);
