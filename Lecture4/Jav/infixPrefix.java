@@ -7,14 +7,15 @@ public class infixPrefix {
     // Method to return precedence of operators
     private static int precedence(char operator) {
         switch (operator) {
-            case '+':
-            case '-':
+            case '+', '-' -> {
                 return 1;
-            case '*':
-            case '/':
+            }
+            case '*', '/' -> {
                 return 2;
-            case '^':
+            }
+            case '^' -> {
                 return 3;
+            }
         }
         return -1;
     }
@@ -34,12 +35,10 @@ public class infixPrefix {
         StringBuilder result = new StringBuilder();
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
-            if (ch == '(') {
-                result.append(')');
-            } else if (ch == ')') {
-                result.append('(');
-            } else {
-                result.append(ch);
+            switch (ch) {
+                case '(' -> result.append(')');
+                case ')' -> result.append('(');
+                default -> result.append(ch);
             }
         }
         return result.toString();
